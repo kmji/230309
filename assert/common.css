@@ -1,0 +1,131 @@
+.blind{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    margin: -1px;
+}
+.sc-footer .ft-logo,
+.slide-control .btn,
+.sc-new .btn-all,
+.sc-board .btn-more,
+.group-slide-img .slide-control .btn,
+.header .search-area .btn-submit,
+.header .logo-area .logo a::before{
+    background-image: url(./images/sp-bg.png);
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+}
+.header .sub-logo-area a::before{
+    background-image: url(./images/sub-logo.png);
+    background-size: 133px 51px;
+    background-repeat: no-repeat;
+}
+
+.header .search-area .ico-keyboard{
+    background-image: url(./images/ico-keyboard.png);
+    background-size: 29px 16px;
+    background-repeat: no-repeat;
+}
+.header .weather-area::before{
+    background-image: url(./images/ico-cloud.png);
+    background-size: 58px 47px;
+    background-repeat: no-repeat;
+}
+.sc-news-slide .group-slide-btn .ico-citizen,
+.sc-news-slide .group-slide-btn .ico-news{
+    background-image: url(./images/ico-main-slide.png);
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+}
+
+.sc-corona .corona-title::before{
+    background-image: url(./images/corona-title.png);
+    background-size: 54px 16px;
+    background-repeat: no-repeat;
+}
+.sc-corona button::after{
+    background-image: url(./images/corona-btn.png);
+    background-size: 8px 11px;
+    background-repeat: no-repeat;
+}
+.sc-side-news .side-news-area{
+    background-image: url(./images/side-news.jpg);
+    background-size: 360px;
+    background-repeat: no-repeat;
+}
+.group-service-header .service-link-area .link-story,
+.group-service-header .service-link-area .link-story:hover,
+.group-service-header .service-link-area .link-festival,
+.group-service-header .service-link-area .link-festival:hover{
+    background-image: url(./images/service-link.png);
+    background-size: 160px 60px;
+    background-repeat: no-repeat;
+}
+.group-service-content .service-item i{
+    background-image: url(./images/ico-service-item.png);
+    background-size: 1200px 60px;
+    background-repeat: no-repeat;
+}
+.sc-banner .banner-item .banner strong::after{
+    background-image: url(./images/sc-banner.jpg);
+    background-size: 230px 70px;
+    background-repeat: no-repeat;
+}
+.sc-info .info-item.item1{
+    background-image: url(./images/sc-info-img/item1.png);
+    background-size: 85px 85px;
+    background-repeat: no-repeat;
+}
+.sc-info .info-item.item2{
+    background-image: url(./images/sc-info-img/item2.png);
+    background-size: 85px 85px;
+    background-repeat: no-repeat;
+}
+.sc-info .info-item.item3{
+    background-image: url(./images/sc-info-img/item3.png);
+    background-size: 85px 85px;
+    background-repeat: no-repeat;
+}
+.sc-info .info-item.item4{
+    background-image: url(./images/sc-info-img/item4.png);
+    background-size: 85px 85px;
+    background-repeat: no-repeat;
+}
+.sc-info .info-item.item5{
+    background-image: url(./images/sc-info-img/item5.png);
+    background-size: 85px 85px;
+    background-repeat: no-repeat;
+}
+.sc-info .info-item.item6{
+    background-image: url(./images/sc-info-img/item6.png);
+    background-size: 85px 85px;
+    background-repeat: no-repeat;
+}
+.sc-info .info-item.item7{
+    background-image: url(./images/sc-info-img/item7.png);
+    background-size: 85px 85px;
+    background-repeat: no-repeat;
+}
+.sc-info .info-item.item8{
+    background-image: url(./images/sc-info-img/item8.png);
+    background-size: 85px 85px;
+    background-repeat: no-repeat;
+}
+.wrap-view .sc-sns{
+    background-image: url(./images/sc-sns.jpg);
+    background-size: 350px 195px;
+    background-repeat: no-repeat;
+}
+.sc-sns .sns-list .sns-item,
+.wrap-view .sc-sns h2::after{
+    background-image: url(./images/sc-sns-list.png);
+    background-size: 280px 40px;
+    background-repeat: no-repeat;
+}
+.sc-footer-link .ft-sns-item{
+    background-image: url(./images/ft-sns-list.png);
+    background-size: 175px 50px;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,325 @@
+@import './reset.css';
+@import './common.css';
+
+.wrapper{
+    min-width: 1152px;
+}
+.btn-top{
+    position: fixed;
+    bottom: 0;
+    left: 82%;
+    opacity: 0;
+    transition: 0.3s;
+}
+.btn-top.show{
+    opacity: 1;
+    bottom: 98px;
+}
+.header{
+    width: 1152px;
+    height: auto;
+    margin: 0 auto;
+}
+.header .group-hd-top{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 8px;
+   height: 48px;
+}
+.header .logo-area{
+    
+}
+.header .logo-area .logo a::before{
+    display: block;
+    width: 105px;
+    height: 27px;
+    background-position: -5px -165px;
+    content: '';
+
+}
+.header .gnb{
+    margin-left: 10px;
+    padding-left: 40px;
+}
+.header .gnb-inner{}
+.header .nav-list{
+    display: flex;
+    align-items: center;
+}
+.header .nav-item{
+    margin: 0 0 0 20px;
+    font-weight: bold;
+}
+
+.header .nav:hover{
+    color: #2292e9;
+    text-decoration: none;
+}
+.header .service-area{
+    margin: 0 0 0 auto;
+    display: flex;
+}
+.header .service-area a{
+    display: block;
+    padding: 0 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.header .service-area a:hover{
+    color: #2292e9;
+    text-decoration: none;
+}
+.header .group-hd-bottom{
+    position: relative;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 119px;
+}
+.header .sub-logo-area a::before{
+    display: block;
+    width: 133px;
+    height: 51px;
+    background-position: 0 0;
+    content: '';
+}
+.header .search-area{
+    position: relative;
+}
+.header .search-area .blue-window{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 520px;
+    height: 42px;
+    border: 3px solid #1E6CB3;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+.header .search-area .input-text{
+    color: #1E6CB3;
+    font-size: 14px;
+    padding: 10px 180px 10px 10px;
+    width: 300px;
+}
+.header .search-area .input-text:focus{
+    outline: none;
+}
+.header .search-area .ico-keyboard{
+    position: absolute;
+    top: 15px;
+    right: 40px;
+    display: block;
+    width: 29px;
+    height: 16px;
+
+}
+.header .search-area .btn-submit{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background-position: -32px -97px;
+    cursor: pointer;
+}
+.header .group-side{
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+.header .group-side .lang-area{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.header .lang-area #lang{
+    border: 1px solid #1E6CB3;
+    font-size: 12px;
+}
+.header .lang-area #lang:focus{
+    outline: none;
+}
+.header .lang-area #lang .language{
+    
+}
+.header .lang-area .btn-lang{
+    background: #1E6CB3;
+    color: #fff;
+    padding: 2px 5px;
+    font-size: 12px;
+}
+.header .weather-area{
+    position: relative;
+    /* border: 1px solid red; */
+    margin-right: 20px;
+}
+.header .weather-area::before{
+    position: absolute;
+    display: block;
+    top: 0;
+    left: -58px;
+    width: 58px;
+    height: 47px;
+    background-position: 0 0;
+    content: '';
+    cursor: pointer;
+}
+.header .now-weather{
+    margin-bottom: 10px;
+}
+.header .now-weather a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.header .now-weather strong{
+    font-weight: bold;
+    font-size: 25px;
+}
+.header .now-weather .cloud{
+    margin-left: 20px;
+    font-size: 16px;
+}
+.header .now-dust{}
+.header .now-dust a{
+    text-decoration: none;
+}
+.header .now-dust .dust{
+    font-size: 13px;
+}
+.header .now-dust .dust-state{
+    color: green;
+    font-size: 14px;
+    margin-left: -4px;
+}
+.footer{
+    
+    width: 1152px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.footer .sc-footer-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+.sc-footer-link .ft-link-list{
+    display: flex;
+    gap: 14px;
+    padding: 15px 0;
+}
+.sc-footer-link .ft-link-item{
+    position: relative;
+}
+.sc-footer-link .ft-link-item + .ft-link-item::before{
+    position: absolute;
+    top: 2px;
+    left: -7px;
+    width: 1px;
+    height: 15px;
+    background: #ccc;
+    content: '';
+}
+.sc-footer-link .ft-link-item a{
+    font-size: 12px;
+    text-decoration: none;
+}
+.sc-footer-link .ft-link-item strong{
+    font-weight: bold;
+}
+.sc-footer-link .ft-sns-list{
+    display: flex;
+    gap: 10px;
+}
+.sc-footer-link .ft-sns-item{
+    display: block;
+    width: 24px;
+    height: 24px;
+    content: '';
+}
+
+.sc-footer-link .ft-sns-item.facebook{
+    background-position: -25px 0;  
+}
+.sc-footer-link .ft-sns-item:hover.facebook{
+    background-position: -25px -25px;  
+}
+.sc-footer-link .ft-sns-item.twitter{
+    background-position: -50px 0;  
+}
+.sc-footer-link .ft-sns-item:hover.twitter{
+    background-position: -50px -25px;  
+}
+.sc-footer-link .ft-sns-item.instagram{
+    background-position: -75px 0;  
+}
+.sc-footer-link .ft-sns-item:hover.instagram{
+    background-position: -75px -25px;  
+}
+.sc-footer-link .ft-sns-item.kakaostory{
+    background-position: -100px 0;  
+}
+.sc-footer-link .ft-sns-item:hover.kakaostory{
+    background-position: -100px -25px; 
+}
+.sc-footer-link .ft-sns-item.youtube{
+    background-position: -125px 0;  
+}
+.sc-footer-link .ft-sns-item:hover.youtube{
+    background-position: -125px -25px;  
+}
+.sc-footer-link .ft-sns-item.blog{
+    background-position: -150px 0;  
+}
+.sc-footer-link .ft-sns-item:hover.blog{
+    background-position: -150px -25px;  
+}
+.sc-footer{
+
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    padding: 22px 0;
+}
+.sc-footer .ft-logo{
+    display: block;
+    width: 108px;
+    height: 45px;
+    background-position: -180px 0;  
+    content: '';
+    margin: 0 40px 0 0;
+}
+
+.sc-footer .addr{
+
+}
+.sc-footer .addr .addr-list{
+    display: flex;
+    flex-direction: column;
+}
+.sc-footer .addr .addr-item{
+    font-size: 12px;
+}
+.sc-footer .addr .addr-link{
+    display: flex;
+    align-items: center;
+}
+.sc-footer .addr .addr-link a{
+    margin-left: 2px;
+    text-decoration: none;
+}
+.sc-footer .mark{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
